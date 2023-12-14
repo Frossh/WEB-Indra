@@ -1,11 +1,15 @@
-nav ul {
-    background: #111;
-    padding: 0 0px;
+
+ nav ul {
+    top: 0;
+    background: #333333;
+    margin: 0;
+    padding: 0;
     list-style: none;
-    position: relative;
+    position: fixed;
     width: 100%;
-    font-family: ‘helvetica’, arial;
+    font-family: ‘helvetica’, montserrat;
 }
+
  
 nav ul:after {
     content: "";
@@ -18,7 +22,8 @@ nav ul li {
 }
  
 nav ul li:hover {
-    background-color: #222;
+    border-radius: 18%;
+    background-color: #a84242;
  
 }
  
@@ -33,9 +38,9 @@ nav ul li a:hover{
     color: #fff;
 }
  
-nav ul ul {
+nav ul ul { 
     display: none;
-    background: #111;
+    background: #6b1313;
     padding: 0;
     position: absolute;
     top: 100%;
@@ -59,7 +64,7 @@ nav ul ul li a {
 }
  
 nav ul ul li a:hover {
-    background: #222;
+    background: #a50d0d;
 }
  
 nav ul ul ul {
@@ -68,3 +73,4 @@ nav ul ul ul {
     top:0;
     width: 200px;
 }
+
